@@ -43,7 +43,7 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
-                android:text="-" />
+                android:text="+/-" />
 
             <Button
                 android:id="@+id/buttonPercent"
@@ -149,7 +149,7 @@
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
-                android:text="--" />
+                android:text="-" />
         </TableRow>
 
         <TableRow

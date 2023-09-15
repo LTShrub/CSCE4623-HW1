@@ -13,11 +13,13 @@ class KalculatorPresenter:KalculatorContract.Presenter {
         mModel = KalculatorModel()
     }
 
+    //Handle key input from user
     override fun append(input: String) {
         when (input) {
             "AC" -> mModel.clearInput()
             "DEL" -> mModel.deleteLastInput()
             "=" -> mModel.doMath()
+            "+/-"->mModel.changeSign()
             else -> mModel.appendToInput(input)
         }
         val currentInput = mModel.getCurrentInputAsString()
