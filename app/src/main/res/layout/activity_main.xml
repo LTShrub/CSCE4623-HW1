@@ -27,40 +27,44 @@
             android:paddingBottom="4dp">
 
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonAC"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
+                android:background="@drawable/custom_button2"
+                android:textSize="30sp"
                 android:text="AC" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonNegative"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
+                android:background="@drawable/custom_button2"
+                android:textSize="32sp"
                 android:text="+/-" />
 
-            <Button
-                android:id="@+id/buttonPercent"
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonDelete"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
-                android:text="%" />
+                android:background="@drawable/custom_button2"
+                android:textSize="32sp"
+                android:text="DEL" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonDivide"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
+                android:background="@drawable/custom_button2"
+                android:textSize="32sp"
                 android:text="/" />
         </TableRow>
 
@@ -71,40 +75,44 @@
             android:paddingTop="4dp"
             android:paddingBottom="4dp">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonSeven"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="7" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonEight"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="8" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonNine"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="9" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonMultiply"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
+                android:background="@drawable/custom_button2"
+                android:textSize="32sp"
                 android:text="*" />
         </TableRow>
 
@@ -115,40 +123,44 @@
             android:paddingTop="4dp"
             android:paddingBottom="4dp">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonFour"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="4" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonFive"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="5" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonSix"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="6" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonMinus"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
+                android:background="@drawable/custom_button2"
+                android:textSize="32sp"
                 android:text="-" />
         </TableRow>
 
@@ -159,40 +171,44 @@
             android:paddingTop="4dp"
             android:paddingBottom="4dp">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonOne"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="1" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonTwo"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="2" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonThree"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="3" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonPlus"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
+                android:background="@drawable/custom_button2"
+                android:textSize="32sp"
                 android:text="+" />
         </TableRow>
 
@@ -203,40 +219,44 @@
             android:paddingTop="4dp"
             android:paddingBottom="4dp">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonZero"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="0" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonDecimal"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
+                android:textSize="32sp"
                 android:text="." />
 
-            <Button
-                android:id="@+id/buttonDelete"
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonPercent"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
                 android:background="@drawable/custom_button"
-                android:text="DEL" />
+                android:textSize="32sp"
+                android:text="%" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonEquals"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:background="@drawable/custom_button"
+                android:background="@drawable/custom_button2"
+                android:textSize="32sp"
                 android:text="=" />
         </TableRow>
 
@@ -254,7 +274,8 @@
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.911" />
+        app:layout_constraintVertical_bias="0.911"
+        android:background="@color/dark_gray"/>
 
     <TextView
         android:id="@+id/smallView"
@@ -268,5 +289,7 @@
         app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="1.0"
+        android:background="@color/dark_gray"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

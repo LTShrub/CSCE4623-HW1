@@ -1,6 +1,7 @@
 package com.example.kotlinkalculator
 
 import net.objecthunter.exp4j.ExpressionBuilder
+import java.text.DecimalFormat
 
     class KalculatorModel {
     private var currentInput: String = ""
@@ -52,6 +53,9 @@ import net.objecthunter.exp4j.ExpressionBuilder
             val expression = ExpressionBuilder(currentInput).build()
             previousInput = currentInput
             currentInput = (expression.evaluate()).toString()
+            if (currentInput.length >= 2 && currentInput[currentInput.length - 1] == '0' && currentInput[currentInput.length - 2] == '.') {
+                currentInput = currentInput.dropLast(2)
+            }
         } catch (e: Exception) {
             null // Handle invalid expressions
         }
