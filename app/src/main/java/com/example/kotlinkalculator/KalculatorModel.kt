@@ -1,7 +1,8 @@
 package com.example.kotlinkalculator
 
 import net.objecthunter.exp4j.ExpressionBuilder
-import java.text.DecimalFormat
+import java.math.BigDecimal
+import java.math.RoundingMode
 
     class KalculatorModel {
     private var currentInput: String = ""
@@ -57,6 +58,9 @@ import java.text.DecimalFormat
             if (currentInput.length >= 2 && currentInput[currentInput.length - 1] == '0' && currentInput[currentInput.length - 2] == '.') {
                 currentInput = currentInput.dropLast(2)
             }
+            //Round high decimal values using big decimal
+            val roundedResult = BigDecimal(expression.evaluate()).setScale(10, RoundingMode.HALF_UP)
+            currentInput = roundedResult.stripTrailingZeros().toString()
         } catch (e: Exception) {
             null // Handle invalid expressions
         }
