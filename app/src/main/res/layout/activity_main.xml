@@ -275,7 +275,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.911"
-        android:background="@color/dark_gray"/>
+        android:background="@color/dark_gray"
+        android:textColor="@color/black"/>
 
     <TextView
         android:id="@+id/smallView"
@@ -291,5 +292,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         android:background="@color/dark_gray"
+        android:textColor="@color/black"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

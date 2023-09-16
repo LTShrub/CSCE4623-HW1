@@ -53,6 +53,7 @@ import java.text.DecimalFormat
             val expression = ExpressionBuilder(currentInput).build()
             previousInput = currentInput
             currentInput = (expression.evaluate()).toString()
+            //Remove ".0" from non-floating point numbers
             if (currentInput.length >= 2 && currentInput[currentInput.length - 1] == '0' && currentInput[currentInput.length - 2] == '.') {
                 currentInput = currentInput.dropLast(2)
             }
